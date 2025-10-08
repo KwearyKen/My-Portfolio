@@ -244,6 +244,18 @@ body{
     background: #ff004f;
     transform: translateY(-10px);
 }
+
+.services-list a {
+  color: #333;
+  text-decoration: none;
+  font-weight: 500;
+  transition: 0.3s;
+}
+
+.services-list a:hover {
+  text-decoration: underline;
+  color: #333;
+}
 /*----------------------------------------Portfolio--------------------------------*/
 #portfolio{
     padding: 50px 0; 
@@ -429,7 +441,7 @@ nav .fas{
 }   
 @media only screen and (max-width: 600px){
     #header{
-        background-image: url(/images/phone-background.png);
+        background-image: url(/images/background.png);
     }
     .header-text .text-1{
         margin-top: 80%;
@@ -499,7 +511,7 @@ nav .fas{
 }
 @media only screen and (max-width: 975px){
     #header{
-        background-image: url(/images/phone-background.png);
+        background-image: url(/images/background.png);
     }
     .header-text .text-1{
         margin-top: 60%;

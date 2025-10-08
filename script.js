@@ -12,7 +12,7 @@ $(document).ready(function(){
 
 //animation typing script
 var typed = new Typed(".typing", {
-    strings: ["Coach", "Programmer", "Streamer"],
+    strings: ["Coach", "Programmer", "Developer"],
     typeSpeed: 65,
     backSpeed: 35,
     loop: true
